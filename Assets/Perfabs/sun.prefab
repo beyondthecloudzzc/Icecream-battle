@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6281351587185462753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4054101327077884519}
+  - component: {fileID: 7095250618325206258}
+  - component: {fileID: 8735670515059870390}
+  - component: {fileID: 2123349734663172765}
+  - component: {fileID: 5704937265125940126}
+  m_Layer: 0
+  m_Name: sun
+  m_TagString: hurt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4054101327077884519
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281351587185462753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -711.1384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 281.54, y: 216.48}
+  m_SizeDelta: {x: 88.15558, y: 88.15558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7095250618325206258
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281351587185462753}
+  m_CullTransparentMesh: 0
+--- !u!114 &8735670515059870390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281351587185462753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e92abe866b8b8c54eb4f58cdeb43ffc7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!68 &2123349734663172765
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281351587185462753}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 2
+  m_Points:
+  - {x: 10.431671, y: 45.19655}
+  - {x: 7.46994, y: 44.285294}
+  - {x: -6.5694275, y: 44.420975}
+  - {x: -16.493134, y: 41.931046}
+  - {x: -31.68283, y: 37.025803}
+  - {x: -37.847626, y: 28.928604}
+  - {x: -44.914764, y: 11.655624}
+  - {x: -45.944824, y: 0.043319702}
+  - {x: -40.161957, y: -16.373154}
+  - {x: -34.33725, y: -26.199783}
+  - {x: -16.926788, y: -30.686142}
+  - {x: -10.164978, y: -36.90071}
+  - {x: 0.81399536, y: -42.85948}
+  - {x: 12.75354, y: -46.35582}
+  - {x: 26.47525, y: -45.234116}
+  - {x: 36.91031, y: -38.320847}
+  - {x: 33.268646, y: -19.146347}
+  - {x: 36.38492, y: -12.969498}
+  - {x: 43.01242, y: 1.7116547}
+  - {x: 44.78006, y: 11.896347}
+  - {x: 42.48813, y: 32.854965}
+  - {x: 34.845, y: 41.34691}
+  - {x: 20.761627, y: 41.33452}
+  - {x: 11.431671, y: 45.19655}
+--- !u!50 &5704937265125940126
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281351587185462753}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 8
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
